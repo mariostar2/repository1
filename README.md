@@ -1,1 +1,11 @@
-JAVA 전용 연습파일 자료형 ~ ArrayList까지 연습
+JAVA 연습파일
+자료형 선언 (int,double,char,String)
+for
+if-else
+while
+switch
+배열
+extends (상속)
+abstract(추상)
+<> generic (제너릭)
+Arraylist(List)
