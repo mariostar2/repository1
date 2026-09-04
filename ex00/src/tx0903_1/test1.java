@@ -7,7 +7,8 @@ public class test1 {
 		
 		for(int i : ito2) {
 			ito2[count] = (count + 1) *10;
-			int temp = ito2[count];
+			int temp = ito2[ito2.length - count -1];
+		
 			System.out.println(temp);
 			count ++;
 		}
