@@ -79,7 +79,9 @@ public class StudentTest {
 		// 남녀비울
 		sc.setmentotalCnt(maleCnt);
 		System.out.println("남자 :" + maleratio + "%, 여자" + femaleratio + "%");
-	
+		
+		
+		
 		
 	}
 

@@ -20,6 +20,7 @@ public class Student extends School {
 	private int html;
 	
 	public Student(String classname, String name, String gender, int korScore, int mathScore, int javaScore, int sql,int html) {
+		
 		this.classname = classname;
 		this.name = name;
 		this.gender = gender;
@@ -95,7 +96,7 @@ public class Student extends School {
 	
 	@Override
 	public String toString() {
-	    return String.format("[%s] 이름: %s 성별:*%s* 국어점수: %d, 수학점수: %d Java점수는: %d 입니다, sql점수는: %d 입니다 ,Java 점수는:%d 입니다" , 
+	    return String.format("[%s] 이름: %s ||성별:*%s* || 국어점수: %d || 수학점수: %d || Java점수는: %d  입니다 || sql점수는: %d 입니다 || Java 점수는:%d 입니다||" , 
 	                         classname, name, gender, kor_Score, math_Score, java_Score, sql, html);
 	}
 }

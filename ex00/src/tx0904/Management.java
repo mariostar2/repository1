@@ -1,6 +1,7 @@
 package tx0904;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Management {
 
@@ -16,20 +17,28 @@ public class Management {
 			
 			if (avg >= 60) {
 				System.out.println("pass");
-			} else {
+				
+			}else {
 				System.out.println("fail");
 			}
 		}
 		
 	}	
-	
-	//학생정보 
-	public static void CreateManagementState(ArrayList<Student>stdList) {
+
+	//학생 정보를 추가해보기
+	public static void CreateManagementState() {
+		
 		
 	}
 	
-	//선택한 학생의 클래스의 평균을 출력 
-	public static void UpdateManagementState(ArrayList<Student>stdList) {
+	//선택한 학생을 수정해보기 
+	public static void UpdateManagementState() {
 		
 	}
+	//선택한 학생의 데이터 삭제
+	public static void DeleteManagementState() {
+		
+	}
+	
+	
 }
