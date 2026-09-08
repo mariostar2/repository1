@@ -21,7 +21,7 @@ public class CompanySystem {
 		ns.add(new NonStaff("NON2", "M14", "X", 2000000, 10000));
 		ns.add(new NonStaff("NON3", "M15", "X", 1600000, 10000));
 
-		// 기능 한줄로 정리
+		// 기능 한줄로 정리(객채생성) 으로 끝나니까 먼가 허탈함......
 		CompanyManagement companyManagement =  new CompanyManagement(fs, ns);
 	}
 

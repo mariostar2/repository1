@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CompanyManagement {
 	
 	
-	public CompanyManagement(ArrayList<FullStaff> fs ,ArrayList<NonStaff>ns) {
+	public CompanyManagement(ArrayList<FullStaff> fs ,ArrayList<NonStaff> ns) {
 		System.out.println("========================정규직=======================");
 		int list1 = 0;
 		int list2 = 0;
@@ -30,7 +30,7 @@ public class CompanyManagement {
 		System.out.println("M14_FO 부서의 총 급여: " + list2 + "원");
 		System.out.println("M16_ROAB 부서의 총 급여:" + list3 + "원");
 		
-		System.out.println("========================[계약직]=========================================");
+		System.out.println("========================[계약직]*=========================================");
 
 		// 비정규직중 급여가 제일 높은사람
 		int highSalary = 0;
