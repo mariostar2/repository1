@@ -18,7 +18,6 @@ public class lecture {
 			}else {
 				break;
 			}
-			
 		}
 		System.out.println("홀수의 갯수:" + add);
 		System.out.println("짝수의 갯수:"+ add2);
