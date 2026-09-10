@@ -10,5 +10,7 @@ implement
 abstract(추상)
 <> generic (제너릭)
 Arraylist(List)
-crud
+CRUD (생성,조회,수정,삭제)
 HashMap<?><?>
+toString 
+JDBC (Java Database Connectivity) =  자바와 DB의 연결(connect) 임시 cmd사용 
