@@ -14,20 +14,27 @@ public class B {
 		alist.add(a2);
 		alist.add(a3);
 	
-	
+		
 		//alist  --- > 안에 get1번인덱스 .get
 		//set -> setting
+		
+		System.out.println(alist.get(0).getM());
+
 		System.out.println(alist.get(1).getM());
 		//a3 번을 c ->z로 바꿀거면 a3.set을 해서 
-		//alist의 2번 인덱스에 변경된 s를 출력해라 
-		//set은 세팅만 하고 get으로 접근해라 
+		//alist의 2번 인덱스에 변경된 s를 출력
+		//set은 세팅만 하고 get으로 접근
+		a1.setM(2);
+		System.out.println(alist.get(0).getM());
+		a1.setS("U");
+		System.out.println(alist.get(0).getS());
+		a2.setS("P");
+		System.out.println(alist.get(1).getS());
 		a3.setS("Z");
 		System.out.println(alist.get(2).getS());
-		a2.setS("A");
-		System.out.println(alist.get(1).getS());
-		a1.setM(1);
-		System.out.println(alist.get(2).getM());
+		System.out.println(alist);
 		
+
 	
 	
 	}
