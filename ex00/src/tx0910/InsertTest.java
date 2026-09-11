@@ -32,7 +32,7 @@ public class InsertTest {
 					int result  = stmt.executeUpdate(query);
 					
 					if(result ==1) {
-						System.out.println("1개의 행을 추가하는걸로 하겠습니다");
+						System.out.println("1개의 행을 추가하는데 성공!");
 					}else {
 						System.out.println("추가 실패!");
 					}

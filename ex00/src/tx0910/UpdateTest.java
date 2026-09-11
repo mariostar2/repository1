@@ -34,6 +34,7 @@ public class UpdateTest {
 					}else {
 						System.out.println("업데이트 실패");
 					}
+					//메모리 누수 방지 
 					stmt.close();
 					conn.close();
 				}
